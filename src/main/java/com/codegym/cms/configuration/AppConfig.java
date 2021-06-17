@@ -93,9 +93,9 @@ public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/jpa-hibernate-quanlykhachhang");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/demo_orm_jpa");
         dataSource.setUsername("root");
-        dataSource.setPassword("034266145");
+        dataSource.setPassword("Kieulinh1@");
         return dataSource;
     }
 

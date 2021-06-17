@@ -5,7 +5,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "customers")
 public class Customer {
-//auto thì chia sẻ số thứ tự với các bảng, ví dụ teacher id = 1, tiếp theo student =2, còn identity thì chỉ xử dụng cho bảng đó
+
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;

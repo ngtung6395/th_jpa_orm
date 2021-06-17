@@ -11,6 +11,7 @@ import java.util.List;
 
 @Transactional
 public class CustomerRepository implements ICustomerRepository {
+
     @PersistenceContext
     private EntityManager em;
 
